@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+header{
+    padding: 100px;
+    text-align: center;
+    text-transform: none;
+    color: #ffffff;
+    background-image:url("images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-position: 55% 55%;
+    background size: cover;
+    margin:0;
+}
+
+body {
+    background-color: #aad4cf;
+	line-height: 1.2;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar{
+    background-color:#ceeae6;
+    padding: 10px
+    height: 40px;
+    font-size:30px;
+    color: black;
+    text-transform:uppercase;
+    text-align:center;
+
+}
+
+.boxes {
+    display: flex;
+}
+  
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 200px;
+    background-color:#ceeae6;
+}
+  
+.box:hover {
+    background-color:#ffffff;
+}
+
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 5px; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+input[type=send] {
+    background-color: #ceeae6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=send]:hover {
+    background-color: #ceeae6;
+  }
+  
+.container {
+    background-color: #ceeae6;
+    padding: 10px;
+    margin: auto;
+  }
+
+h1{
+    font-size:3em;
+    text-align:center;
+    padding:15px 0;
+}
+
+h2{
+    font-size:1.8em;
+}
+
+h3{
+    font-size:1.5em;
+}
+
+main, aside, footer{
+    padding:5px;
+    margin:0px;
+}
+
+main p{
+    margin:0px;
+}
+
+div {
+    width: 800px;
+    background-color:#ceeae6;
+    padding: 0px;
+    margin: auto;
+}
+
+img {
+    border: 15px solid #ceeae6;
+}
+
+a{
+    display: inline-block;
+    width: 250px;
+    height: 20px;  
+}
+
+footer{
+    text-align:right;
+    font-style:italic;
+    font-size:0.7em;
+}
+

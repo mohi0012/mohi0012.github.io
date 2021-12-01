@@ -9,33 +9,28 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
 
-  <header>
-  <div class="container">
-    <nav>
+<div class="container">
         <div class="logo">
             <img src="images/logo.png" alt="logo with stars">
-  <ul>
+        </div>
+      <nav>
+      <ul>
       <li>Home</li>
       <li>About Us</li>
       <li>Services</li>
       <li>Team</li>
       <li>Contact</li>
-  </ul>
-
-  <div>
+      </ul>
+      </nav>
       <input type="text" placeholder="Search">
       <button type="submit"></button>
-  </div>
-  </nav>
-  </div>
-  </header>
 
-  <main>
-
-      <div class="banner">
-        <img src="images/main-banner.jpg">
+  <header>
+    <main>
+        <div class="banner">
+        <img src="images/main-banner.jpg" alt="main banner">
       </div>
-      <div class="text">
+        <div class="text">
             <h1>
                 Welcome to Three Star Media
             </h1>
@@ -44,19 +39,21 @@
                 otam incidunt voluptate iste deserunt accusantium repudiandae ipsa voluptates quia, 
                 consequuntur mollitia dolorum, impedit aliquid nesciunt doloribus dolores 
                 architecto voluptatem nulla fuga.
-              </p>
-                <button href="#"></button>Connect with us</button>
-      </div>
+            </p>
+            <button class="btn"><i class="zoom.svg"></i>Connect with us</button>
+       </div>
+      </header>
+    <body>
+        <div class="about-us">
+          <img src="images/about-us.jpg" alt="About us">
 
-    <div class="container">
-      <div class="about-us">
-          <img src="images/about-us.jpg">
-      </div>
-      <div class="text">
+        </div>
+        <div class="text">
           <h2>
           About Us
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Blanditiis excepturi labore autem, provident unde, 
         consequatur sit vel repellat odio officiis, deserunt molestiae aperiam tempora 
         ipsam molestias maiores doloremque sapiente minus. 
@@ -70,16 +67,14 @@
         voluptas natus ratione, soluta dolor aliquam error rem esse odio saepe, 
         laudantium facere cupiditate magni.
           </p>
-      </div>  
-    </div>
-
-    <div class="container">
+      </div>
+    </main>
       <div class="text">
         <h1>Our Services</h1>
       </div>
 
       <div class="digital-img">
-        <img src="images/digital.jpg">
+        <img src="images/digital.jpg" alt="digital">
         <div class="text">
           <h2>Digital Transformation</h2>
           <p>
@@ -91,10 +86,10 @@
           </p>
           <button type="button">Digital Plans</button>
         </div>
-    </div>
+      </div>
 
       <div class="marketing-img">
-        <img src="images/marketing.jpg">
+        <img src="images/marketing.jpg" alt="marketing">
         <div class="text">
           <h2>Marketing</h2>
           <p>
@@ -108,7 +103,7 @@
       </div>
 
       <div class="video-img">
-        <img src="images/video.jpg">
+        <img src="images/video.jpg" alt="video">
         <div class="text">
           <h2>Video Production</h2>
           <p>
@@ -122,10 +117,9 @@
           <button type="button">Video Plans</button>
         </div>
       </div>
-    </div>
 
     <div class="web-img">
-      <img src="images/web.jpg">
+      <img src="images/web.jpg" alt="web">
       <div class="text">
         <h2>Web Development</h2>
         <p>
@@ -138,7 +132,7 @@
     </div>
 
     <div class="print-img">
-        <img src="images/print.jpg">
+        <img src="images/print.jpg" alt="print">
         <div class="text">
           <h2>Print</h2>
           <p>
@@ -149,10 +143,9 @@
           </p>
         </div>
     </div>
-    </div>
-    <div class="container">
-      <div class="john-img">
-        <img src="images/john.jpg">
+
+    <div class="john-img">
+        <img src="images/john.jpg" alt="johndoe">
         <div class="text">
           <h2>John Doe</h2>
           <h3>CEO and Co-owner</h3>
@@ -163,7 +156,7 @@
             corporis neque debitis minus et ipsum, 
             nam dicta quas maiores optio aperiam?
           </p>
-        </div>
+    </div>
       
       <div class="text">
         <h2>Bob Rite</h2>
@@ -177,14 +170,16 @@
       </div>
 
       <div class="bob-img">
-        <img src="images/bob.jpg">
+        <img src="images/bob.jpg" alt="bob">
       </div>
       </div>
       </div>
-      <div class="form">
-      <form method="post" action="index.html">
-        <h3>Contact to learn more</h3>
+
+    <div class="form">
+        <form method="post" action="index.html"></form>
+        <h1>Contact Us</h1>
         <div class="formbox">
+          <h2>Send us a message</h2>
             <div class="texts">
                 <label for="fullname">Your Name</label>
                 <input type="text" id="fullname" name="fullname">
@@ -194,8 +189,42 @@
 
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message"></textarea>
-            </div>
+
+                <input type="submit" name="submit" id="submit" value="SEND">
+              </div>
       </div>
-  </main>
-  </body>
+      </div>
+    </div>
+
+    <div class="location">
+      <h2>Location</h2>
+    </div>
+
+    <div class="table">
+      <table>
+        <h2>Hours of Operation</h2>
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday - Friday</td>
+            <td>9 AM - 6 AM</td>
+          </tr>
+          <tr>
+            <td>Saturday - Sunday</td>
+            <td>Closed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      </body>
+    <footer>
+      Copyright Three Star Media, 2020
+      <br>
+      All Images are taken from <a href="">Unsplash</a>
+    </footer>
 </html>

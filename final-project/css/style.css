@@ -47,10 +47,54 @@ table {
 	border-spacing: 0;
 }
 
-/* -------- mobile -- ------ */
+/* ~~~~~~~~~~~~~~~~~
+			
+		Defaults - Mobile CSS
+
+~~~~~~~~~~~~~~~~~~ */
 
 .container{
     background-color:black;
-    width:100vw; /* 100 viewport width */
-    height:100vh; /* 100 viewport height */
+    width:100vw; 
+    height:100vh; 
+}
+
+ul{
+    background-color:#696250;
+    display:flex;
+}
+
+li{
+	padding:10px; 
+    border-right:2px solid black; 
+    background-color:;
+    text-align:center;
+
+    flex-grow:1;
+
+	flex-basis:0;
+
+    font-size:24px;
+}
+
+li:last-child{
+    border:none;
+}
+
+a{
+    background-color:;
+    text-decoration:none;
+}
+
+h2{
+    font-size:32px;
+    font-weight:bold;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+section{
+    padding:10px;
+    margin:5px 0;
+    background-color:gainsboro;
 }

@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: Open Sans;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -60,7 +60,7 @@ table {
 }
 
 ul{
-    background-color:#696250;
+    background-color:;
     display:flex;
 }
 
@@ -98,3 +98,4 @@ section{
     margin:5px 0;
     background-color:gainsboro;
 }
+
